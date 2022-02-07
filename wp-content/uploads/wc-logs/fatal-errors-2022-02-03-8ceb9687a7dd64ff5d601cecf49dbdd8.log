@@ -1,0 +1,170 @@
+2022-02-03T09:26:02+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /Applications/MAMP/htdocs/moncms/wp-includes/class-wp-image-editor.php on line 565
+
+2022-02-03T09:31:06+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in /Applications/MAMP/htdocs/moncms/wp-content/plugins/elementor/core/base/document.php:864
+Stack trace:
+#0 /Applications/MAMP/htdocs/moncms/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 /Applications/MAMP/htdocs/moncms/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(12)
+#2 /Applications/MAMP/htdocs/moncms/wp-content/plugins/astra-sites/inc/importers/batch-processing/helpers/class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 /Applications/MAMP/htdocs/moncms/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 /Applications/MAMP/htdocs/moncms/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(447): WP_Background_Process->handle()
+#5 /Applications/MAMP/htdocs/moncms/wp-includes/class-wp-hook.php(307): WP_Background_Process->handle_cron_healthcheck()
+#6 /Applications/MAMP/htdocs/moncms/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#7 /Applications/MAMP/htdocs/moncms/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#8 /Applications/MAMP/htdocs/moncms/wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in /Applications/MAMP/htdocs/moncms/wp-content/plugins/elementor/core/base/document.php on line 864
+
+2022-02-03T09:41:04+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in /Applications/MAMP/htdocs/moncms/wp-content/plugins/elementor/core/base/document.php:864
+Stack trace:
+#0 /Applications/MAMP/htdocs/moncms/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 /Applications/MAMP/htdocs/moncms/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(12)
+#2 /Applications/MAMP/htdocs/moncms/wp-content/plugins/astra-sites/inc/importers/batch-processing/helpers/class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 /Applications/MAMP/htdocs/moncms/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 /Applications/MAMP/htdocs/moncms/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(447): WP_Background_Process->handle()
+#5 /Applications/MAMP/htdocs/moncms/wp-includes/class-wp-hook.php(307): WP_Background_Process->handle_cron_healthcheck()
+#6 /Applications/MAMP/htdocs/moncms/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#7 /Applications/MAMP/htdocs/moncms/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#8 /Applications/MAMP/htdocs/moncms/wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in /Applications/MAMP/htdocs/moncms/wp-content/plugins/elementor/core/base/document.php on line 864
+
+2022-02-03T09:54:00+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in /Applications/MAMP/htdocs/moncms/wp-content/plugins/elementor/core/base/document.php:864
+Stack trace:
+#0 /Applications/MAMP/htdocs/moncms/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 /Applications/MAMP/htdocs/moncms/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(12)
+#2 /Applications/MAMP/htdocs/moncms/wp-content/plugins/astra-sites/inc/importers/batch-processing/helpers/class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 /Applications/MAMP/htdocs/moncms/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 /Applications/MAMP/htdocs/moncms/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(447): WP_Background_Process->handle()
+#5 /Applications/MAMP/htdocs/moncms/wp-includes/class-wp-hook.php(307): WP_Background_Process->handle_cron_healthcheck()
+#6 /Applications/MAMP/htdocs/moncms/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#7 /Applications/MAMP/htdocs/moncms/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#8 /Applications/MAMP/htdocs/moncms/wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in /Applications/MAMP/htdocs/moncms/wp-content/plugins/elementor/core/base/document.php on line 864
+
+2022-02-03T09:56:02+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in /Applications/MAMP/htdocs/moncms/wp-content/plugins/elementor/core/base/document.php:864
+Stack trace:
+#0 /Applications/MAMP/htdocs/moncms/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 /Applications/MAMP/htdocs/moncms/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(12)
+#2 /Applications/MAMP/htdocs/moncms/wp-content/plugins/astra-sites/inc/importers/batch-processing/helpers/class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 /Applications/MAMP/htdocs/moncms/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 /Applications/MAMP/htdocs/moncms/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(447): WP_Background_Process->handle()
+#5 /Applications/MAMP/htdocs/moncms/wp-includes/class-wp-hook.php(307): WP_Background_Process->handle_cron_healthcheck()
+#6 /Applications/MAMP/htdocs/moncms/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#7 /Applications/MAMP/htdocs/moncms/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#8 /Applications/MAMP/htdocs/moncms/wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in /Applications/MAMP/htdocs/moncms/wp-content/plugins/elementor/core/base/document.php on line 864
+
+2022-02-03T10:21:21+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in /Applications/MAMP/htdocs/moncms/wp-content/plugins/elementor/core/base/document.php:864
+Stack trace:
+#0 /Applications/MAMP/htdocs/moncms/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 /Applications/MAMP/htdocs/moncms/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(12)
+#2 /Applications/MAMP/htdocs/moncms/wp-content/plugins/astra-sites/inc/importers/batch-processing/helpers/class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 /Applications/MAMP/htdocs/moncms/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 /Applications/MAMP/htdocs/moncms/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(447): WP_Background_Process->handle()
+#5 /Applications/MAMP/htdocs/moncms/wp-includes/class-wp-hook.php(307): WP_Background_Process->handle_cron_healthcheck()
+#6 /Applications/MAMP/htdocs/moncms/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#7 /Applications/MAMP/htdocs/moncms/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#8 /Applications/MAMP/htdocs/moncms/wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in /Applications/MAMP/htdocs/moncms/wp-content/plugins/elementor/core/base/document.php on line 864
+
+2022-02-03T10:27:02+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in /Applications/MAMP/htdocs/moncms/wp-content/plugins/elementor/core/base/document.php:864
+Stack trace:
+#0 /Applications/MAMP/htdocs/moncms/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 /Applications/MAMP/htdocs/moncms/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(12)
+#2 /Applications/MAMP/htdocs/moncms/wp-content/plugins/astra-sites/inc/importers/batch-processing/helpers/class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 /Applications/MAMP/htdocs/moncms/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 /Applications/MAMP/htdocs/moncms/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(447): WP_Background_Process->handle()
+#5 /Applications/MAMP/htdocs/moncms/wp-includes/class-wp-hook.php(307): WP_Background_Process->handle_cron_healthcheck()
+#6 /Applications/MAMP/htdocs/moncms/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#7 /Applications/MAMP/htdocs/moncms/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#8 /Applications/MAMP/htdocs/moncms/wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in /Applications/MAMP/htdocs/moncms/wp-content/plugins/elementor/core/base/document.php on line 864
+
+2022-02-03T10:30:31+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in /Applications/MAMP/htdocs/moncms/wp-content/plugins/elementor/core/base/document.php:864
+Stack trace:
+#0 /Applications/MAMP/htdocs/moncms/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 /Applications/MAMP/htdocs/moncms/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(12)
+#2 /Applications/MAMP/htdocs/moncms/wp-content/plugins/astra-sites/inc/importers/batch-processing/helpers/class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 /Applications/MAMP/htdocs/moncms/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 /Applications/MAMP/htdocs/moncms/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(447): WP_Background_Process->handle()
+#5 /Applications/MAMP/htdocs/moncms/wp-includes/class-wp-hook.php(307): WP_Background_Process->handle_cron_healthcheck()
+#6 /Applications/MAMP/htdocs/moncms/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#7 /Applications/MAMP/htdocs/moncms/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#8 /Applications/MAMP/htdocs/moncms/wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in /Applications/MAMP/htdocs/moncms/wp-content/plugins/elementor/core/base/document.php on line 864
+
+2022-02-03T10:35:40+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in /Applications/MAMP/htdocs/moncms/wp-content/plugins/elementor/core/base/document.php:864
+Stack trace:
+#0 /Applications/MAMP/htdocs/moncms/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 /Applications/MAMP/htdocs/moncms/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(12)
+#2 /Applications/MAMP/htdocs/moncms/wp-content/plugins/astra-sites/inc/importers/batch-processing/helpers/class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 /Applications/MAMP/htdocs/moncms/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 /Applications/MAMP/htdocs/moncms/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(447): WP_Background_Process->handle()
+#5 /Applications/MAMP/htdocs/moncms/wp-includes/class-wp-hook.php(307): WP_Background_Process->handle_cron_healthcheck()
+#6 /Applications/MAMP/htdocs/moncms/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#7 /Applications/MAMP/htdocs/moncms/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#8 /Applications/MAMP/htdocs/moncms/wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in /Applications/MAMP/htdocs/moncms/wp-content/plugins/elementor/core/base/document.php on line 864
+
+2022-02-03T10:40:31+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in /Applications/MAMP/htdocs/moncms/wp-content/plugins/elementor/core/base/document.php:864
+Stack trace:
+#0 /Applications/MAMP/htdocs/moncms/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 /Applications/MAMP/htdocs/moncms/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(12)
+#2 /Applications/MAMP/htdocs/moncms/wp-content/plugins/astra-sites/inc/importers/batch-processing/helpers/class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 /Applications/MAMP/htdocs/moncms/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 /Applications/MAMP/htdocs/moncms/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(447): WP_Background_Process->handle()
+#5 /Applications/MAMP/htdocs/moncms/wp-includes/class-wp-hook.php(307): WP_Background_Process->handle_cron_healthcheck()
+#6 /Applications/MAMP/htdocs/moncms/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#7 /Applications/MAMP/htdocs/moncms/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#8 /Applications/MAMP/htdocs/moncms/wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in /Applications/MAMP/htdocs/moncms/wp-content/plugins/elementor/core/base/document.php on line 864
+
+2022-02-03T10:45:30+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in /Applications/MAMP/htdocs/moncms/wp-content/plugins/elementor/core/base/document.php:864
+Stack trace:
+#0 /Applications/MAMP/htdocs/moncms/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 /Applications/MAMP/htdocs/moncms/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(12)
+#2 /Applications/MAMP/htdocs/moncms/wp-content/plugins/astra-sites/inc/importers/batch-processing/helpers/class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 /Applications/MAMP/htdocs/moncms/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 /Applications/MAMP/htdocs/moncms/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(447): WP_Background_Process->handle()
+#5 /Applications/MAMP/htdocs/moncms/wp-includes/class-wp-hook.php(307): WP_Background_Process->handle_cron_healthcheck()
+#6 /Applications/MAMP/htdocs/moncms/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#7 /Applications/MAMP/htdocs/moncms/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#8 /Applications/MAMP/htdocs/moncms/wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in /Applications/MAMP/htdocs/moncms/wp-content/plugins/elementor/core/base/document.php on line 864
+
+2022-02-03T10:50:33+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in /Applications/MAMP/htdocs/moncms/wp-content/plugins/elementor/core/base/document.php:864
+Stack trace:
+#0 /Applications/MAMP/htdocs/moncms/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 /Applications/MAMP/htdocs/moncms/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(12)
+#2 /Applications/MAMP/htdocs/moncms/wp-content/plugins/astra-sites/inc/importers/batch-processing/helpers/class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 /Applications/MAMP/htdocs/moncms/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 /Applications/MAMP/htdocs/moncms/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(447): WP_Background_Process->handle()
+#5 /Applications/MAMP/htdocs/moncms/wp-includes/class-wp-hook.php(307): WP_Background_Process->handle_cron_healthcheck()
+#6 /Applications/MAMP/htdocs/moncms/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#7 /Applications/MAMP/htdocs/moncms/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#8 /Applications/MAMP/htdocs/moncms/wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in /Applications/MAMP/htdocs/moncms/wp-content/plugins/elementor/core/base/document.php on line 864
+
+2022-02-03T10:55:33+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in /Applications/MAMP/htdocs/moncms/wp-content/plugins/elementor/core/base/document.php:864
+Stack trace:
+#0 /Applications/MAMP/htdocs/moncms/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 /Applications/MAMP/htdocs/moncms/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(12)
+#2 /Applications/MAMP/htdocs/moncms/wp-content/plugins/astra-sites/inc/importers/batch-processing/helpers/class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 /Applications/MAMP/htdocs/moncms/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 /Applications/MAMP/htdocs/moncms/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(447): WP_Background_Process->handle()
+#5 /Applications/MAMP/htdocs/moncms/wp-includes/class-wp-hook.php(307): WP_Background_Process->handle_cron_healthcheck()
+#6 /Applications/MAMP/htdocs/moncms/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#7 /Applications/MAMP/htdocs/moncms/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#8 /Applications/MAMP/htdocs/moncms/wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in /Applications/MAMP/htdocs/moncms/wp-content/plugins/elementor/core/base/document.php on line 864
+
